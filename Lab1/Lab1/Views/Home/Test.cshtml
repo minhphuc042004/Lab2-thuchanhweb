@@ -1,0 +1,67 @@
+﻿
+@{
+    ViewBag.Title = "Test";
+    Layout = "~/Views/Shared/_MasterLayout.cshtml";
+}
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style>
+        #mainn{
+            line-height:10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="https://courses.huflit.edu.vn/my/" method="post">
+
+        <div id="cnt">
+            <h3>Content of Page Test</h3>
+        </div>
+        <fieldset>
+            <legend>
+                Information
+            </legend>
+            <DIV id="mainn">
+                <div class="name">
+                    <p>Name:</p>
+                    <input type="text" name="name" value="" />
+                </div>
+                <div class="email">
+                    <p>Email:</p>
+                    <input type="text" name="name" value="" />
+                </div>
+                <div class="Pass">
+                    <p>Pass:</p>
+                    <input type="password" name="name" value="" />
+                </div>
+                <div class="date-time">
+                    <p>Date time:</p>
+                    <input type="date" name="name" value="" />
+                </div>
+                <div class="gender">
+                    <p>Gender: </p>
+                    <input name="gender" type="radio" value="Nam" />Male
+                    <input name="gender" type="radio" value="Nữ" />Female
+                    <input name="gender" type="radio" value="Khác" />Orther
+
+
+                </div>
+                <div class="sub">
+                    <p>Subject: </p>
+                    <select>
+                        <option value="value">CNPM</option>
+                        <option value="value">HTTT</option>
+                        <option value="value">KHMT</option>
+                        <option value="value">TMDT</option>
+                    </select>
+
+                </div>
+
+            </DIV>
+
+        </fieldset>
+    </form>
+
+</body>
+</html>

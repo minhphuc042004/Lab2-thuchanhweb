@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/mystyle.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="div-top">MENU</div>
+    <div id="div-left">
+        <h3 style="text-align:center;">DANH MUC SAN PHAM</h3>
+        <ul class="ds" style="list-style:none">
+            <li>
+                <a href="Laptop">Laptop</a>
+            </li>
+            <li>
+                <a href="Desktop">May tinh de ban</a>
+            </li>
+            <li>
+                <a href="Dienthoai">Dien thoai</a>
+            </li>
+            <li>
+                <a href="Phukien">Phu kien</a>
+            </li>
+        </ul>
+    </div>
+  
+
+    <div id="div-right">
+        <h3 style="text-align:center;">DANH SACH SAN PHAM</h3>
+        
+        @RenderBody()
+    </div>
+    <div id="div-footer">
+        footer
+    </div>
+</body>
+</html>
